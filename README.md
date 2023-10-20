@@ -1,7 +1,7 @@
 # Terms-of-Service-Explainer
 A small web extension to summarize and redline terms and conditions on a webpage, with the idea coming from [this post](https://www.threads.net/@lessin/post/CxdpzGlv074/?igshid=MzRlODBiNWFlZA==) on Threads by user `lessin`.
 ## Some Thoughts
-Built this to try out the OpenAI API and learn how to make a Chrome extension along the way. Heavily leaned into using ChatGPT as a tool to generate code and learn the required web development knowledge along the way, and it worked great (even generating the prompt we give it through the OpenAI API)! Here's the [chat log](https://chat.openai.com/share/d9423dac-ed08-446e-913d-39f19ffbe9cf
+Built this to try out the OpenAI API and learn how to make a Chrome extension along the way. Heavily leaned into using ChatGPT as a tool to generate code, learn the required web development knowledge, as well as help with debugging - and it worked great (even generating the prompt we give it through the OpenAI API)! Here's the [chat log](https://chat.openai.com/share/d9423dac-ed08-446e-913d-39f19ffbe9cf
 ) of my interaction with ChatGPT as I built this. 
 ## Trying Out the Extension
 To try it out, do the following:
