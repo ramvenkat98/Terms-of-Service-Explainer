@@ -1,0 +1,16 @@
+{
+  "name": "tos-grabber-server",
+  "version": "1.0.0",
+  "description": "Server for the ToS grabber project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "*",
+    "openai": "^4.12.4"
+  }
+}

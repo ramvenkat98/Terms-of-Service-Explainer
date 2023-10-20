@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "ToS Grabber",
+  "version": "1.0",
+  "description": "Redline terms of service that you agree to when browsing",
+  "permissions": ["scripting", "storage", "webNavigation", "webRequest"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
