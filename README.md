@@ -13,8 +13,9 @@ To try it out, do the following:
 6. Navigate to a site with terms and conditions - open the extension, and click the "Evaluate ToS" button to get the summary.
 ## Example
 <img width="1202" alt="Screen Shot 2023-10-25 at 9 50 54 PM" src="https://github.com/ramvenkat98/Terms-of-Service-Explainer/assets/27733966/233f36a8-081d-4b3a-a219-e1feb7e3c3bb">
-## Some of the Many Things that Can Be Improved
-1. When you click the button, it should say that the text is loading, instead of saying nothing until we receive the response, since the response can take some time (~3 minutes or so) to generate especially for longer webpages.
+
+## Some Things that Can be Improved
+1. When you click the button, it should say that the text is loading, instead of saying nothing until we receive the response, since the response can take a few minutes to generate especially for longer webpages.
 2. The pop-up shouldn't auto-close without retaining the summary and flagged terms when we click on a part of the webpage outside of the pop-up; even if it does close, we should save that summary so that the next time the extension is opened it can be re-accessed.
 3. The final prompt to summarize the individual chunks can probably be improved, the final summary is sometimes pretty lengthy and not concise enough. The chunking can be improved too - it's quite arbitrary now and probably very conservative - we could increase the size of each chunk so that the speed of generation increases.
 4. Needs some proper error handling.
